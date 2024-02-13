@@ -1,0 +1,12 @@
+services:
+    - App\Router\RouterFactory::createRouter
+    - Authenticator
+    - App\Model\Service\UserService
+    - App\Model\ApiVersionModel
+    - App\Model\ApiModel
+    - App\Model\DocVersionModel
+    - App\Model\DocModel
+    - App\Model\ExporterModel
+    - App\Model\Service\ApiService
+    - App\Model\Service\ExportService
+    - App\Model\Service\ImportService
